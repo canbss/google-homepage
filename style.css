@@ -220,3 +220,29 @@ footer p{
     cursor: pointer;
     text-decoration: underline;
 }
+
+@media (max-width: 885px){
+    #company{
+        flex-direction: column;
+        align-self: center;
+    }
+
+    #company-first{
+        width: 100%;
+        order: 2;
+    }
+
+    #company-second{
+        width: 100%;
+        order : 1;
+    }
+
+    #company-first ul{
+        justify-content: center;
+    }
+
+    #company-second ul{
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+}
