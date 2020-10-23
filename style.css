@@ -172,5 +172,51 @@ footer{
 footer p{
     font-size: 15px;
     color:rgba(0,0,0,.54);
-    padding:30px;
+    padding: 15px 15px 15px 30px;
+}
+
+#company{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color:rgba(0,0,0,.54);
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+#company ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+#company-first{
+    width: 50%;
+}
+
+#company-second{
+    width: 50%;
+}
+
+#company-first ul{
+    justify-content: flex-start;
+}
+
+#company-second ul{
+    justify-content: flex-end;
+}
+
+#company li{
+    padding-right: 30px;
+}
+
+#company a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#company li:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
